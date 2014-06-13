@@ -33,6 +33,11 @@ group :doc do
 end
 
 gem 'haml', '~> 4.0.5'
+gem "haml-rails"
+
+gem 'therubyracer'
+gem 'less-rails'
+gem 'twitter-bootstrap-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
