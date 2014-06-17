@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  latitude: 1
+  longitude: 1
+  zoom: 1
+  user_id: 
+
+two:
+  latitude: 1
+  longitude: 1
+  zoom: 1
+  user_id: 
