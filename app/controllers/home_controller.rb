@@ -2,6 +2,7 @@ require 'digest'
 
 class HomeController < ApplicationController
   def index
-  	@img = Digest::MD5.hexdigest(Digest::MD5.hexdigest("1x8x0")) << ".jpeg"
+    map = current_user.map
+    @img = Digest::MD5.hexdigest(Digest::MD5.hexdigest("#{map.latitude}x#{map.longitude}x#{map.zoom}")) << ".jpeg"
   end
 end
