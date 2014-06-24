@@ -7,12 +7,12 @@
 			%td
 				%br
 				%center
-					= link_to "^", "home/buttons", :class=>"btn btn-default"
+					= link_to "^", "home/buttons", :class=>"btn btn-default", id: 'up'
 					%br
 					%br
-					= link_to "<", "home/buttons", :class=>"btn btn-default"
-					= link_to "ZOOM", "home/buttons", :class=>"btn btn-default"
-					= link_to ">", "home/buttons", :class=>"btn btn-default"
+					= link_to "<", "home/buttons", :class=>"btn btn-default", id: 'left'
+					= link_to "ZOOM", "home/buttons", :class=>"btn btn-default", id: 'zoom'
+					= link_to ">", "home/buttons", :class=>"btn btn-default", id: 'right'
 					%br
 					%br
-					= link_to "v", "home/buttons", :class=>"btn btn-default"
+					= link_to "v", "home/buttons", :class=>"btn btn-default", id: 'down'

@@ -11,7 +11,7 @@ Flagcam::Application.routes.draw do
   root 'home#index'
 
   namespace :api do
-    resource :map do
+    resource :maps do
       collection do
         get :left
         get :right
