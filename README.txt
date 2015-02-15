@@ -11,3 +11,5 @@ Once the competitors figure this out, they must navigate around the image quickl
 location is right 7, down 1, zoomed in 2
 
 Key: MCA-1E347FAD
+
+Note: There is a provisioner which can automatically create a local copy of this challenge located [here](https://github.com/mitre-cyber-academy/2014-web-300-provisioner)
